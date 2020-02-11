@@ -1,4 +1,3 @@
-sudo su
 echo "mnethaji999:mn" | chpasswd
 echo "mnethaji999 ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 #sed -i '27i mnethaji999 ALL=(ALL) NOPASSWD:ALL 27' /etc/sudoers
